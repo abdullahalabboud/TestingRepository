@@ -1,0 +1,33 @@
+GitHub Referase Learning
+<here i wrote all think learned aboud github and git language step by step>
+uploade the directory to the github :
+in computer file open the cmd :
+>git init (to creat github referance)
+>git status (to show the files in computer directory)
+>git add file.type (add file.type to the Repository)
+>git add . (with '.' add all files in computer directory)
+>git commit -m "commit_name" (give a name to commit)
+>git branch -M btanch_name (to create main branch and if i didnt create a branch its created by default with 'm aster' name)
+>git remote add origin http://github.com/repositorylink (connect with repository )
+Well with this steps we create and connect out computer directory with github
+
+>git push -u origin main
+
+
+Update the github files if we have any changed :
+- check if we have a changed 
+   >git status
+   >git add .
+   >git commit -m "Second Commit"
+   >git push 
+
+
+Download Github to computer directory (clone):
+>git clone https://github.com/downloadingfile
+
+
+To Clear Commit file :
+>git reset --soft HEAD~1
+
+To check update in my computer file: 
+git pull
